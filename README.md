@@ -156,4 +156,4 @@ npm run test:e2e
 - [前后端设计与开发方案](docs/开发/前后端设计与开发方案.md)：技术选型与分层设计。
 - [开发与验证记录](docs/开发/开发与验证记录.md)：实际交付范围、修订过程与未验证边界。
 
-开发工具：Codex、Figma MCP、Vitest、Playwright；使用 backend-patterns、api-design、test-driven-development 技能。实际投入时间应由提交者按真实记录补充。
+开发工具：Codex、Figma MCP、Vitest、Playwright；使用 backend-patterns、api-design、test-driven-development 技能。
