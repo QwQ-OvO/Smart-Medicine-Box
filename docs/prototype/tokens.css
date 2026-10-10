@@ -1,0 +1,30 @@
+/* Hallmark · macrostructure: task storyboard · genre: modern-minimal · tone: bright restrained · anchor: blue */
+/* pre-emit critique: P4 H5 E4 S4 R5 V4 */
+:root {
+  --color-canvas: oklch(0.97295 0.00287 264.542);
+  --color-surface: oklch(1.00000 0.00000 89.876);
+  --color-group: oklch(0.96257 0.00665 286.274);
+  --color-ink: oklch(0.22728 0.00382 286.092);
+  --color-muted: oklch(0.49929 0.01417 285.876);
+  --color-rule: oklch(0.90994 0.00841 271.322);
+  --color-accent: oklch(0.52779 0.19606 258.078);
+  --color-accent-ink: oklch(1.00000 0.00000 89.876);
+  --color-tint: oklch(0.95894 0.01946 260.170);
+  --color-amber: oklch(0.49802 0.09602 78.576);
+  --color-amber-soft: oklch(0.97193 0.03199 87.288);
+  --color-green: oklch(0.49853 0.10489 155.383);
+  --color-green-soft: oklch(0.96671 0.01402 155.590);
+  --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "DengXian", "Microsoft YaHei", sans-serif;
+  --font-display: var(--font-body);
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --text-title: 32px;
+  --text-body: 17px;
+  --text-caption: 14px;
+  --radius-group: 20px;
+  --radius-action: 26px;
+}

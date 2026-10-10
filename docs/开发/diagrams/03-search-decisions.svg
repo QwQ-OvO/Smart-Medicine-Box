@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1160" viewBox="0 0 1440 1160" role="img" aria-labelledby="title desc"><title id="title">查找场景与处理决策</title><desc id="desc">与 Search、CluePage 和 deriveClue 的当前行为对应；不把历史位置当作实时保证。。依据 2026-10-10 当前代码，详细对照见当前产品图解文档。</desc><defs><marker id="teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#177d80"/></marker><marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#346fa8"/></marker><marker id="orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#a86b24"/></marker></defs><g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+<rect x="0" y="0" width="1440" height="1160" rx="0" fill="#fafcfc" stroke="none"/>
+<text x="48" y="43" font-size="16" fill="#177d80" font-weight="600"><tspan x="48" dy="0">家庭药箱 / 当前产品设计    03</tspan></text>
+<text x="48" y="89" font-size="32" fill="#203539" font-weight="700"><tspan x="48" dy="0">查找场景与处理决策</tspan></text>
+<text x="48" y="124" font-size="18" fill="#637679" font-weight="400"><tspan x="48" dy="0">与 Search、CluePage 和 deriveClue 的当前行为对应；不把历史位置当作实时保证。</tspan></text>
+<rect x="48" y="166" width="310" height="96" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="66" y="197" font-size="20" fill="#177d80" font-weight="600"><tspan x="66" dy="0">输入药名并查找</tspan></text>
+<text x="66" y="227" font-size="17" fill="#203539" font-weight="400"><tspan x="66" dy="0">空白输入时首页按钮禁用</tspan></text>
+<polyline points="358,214 410,214" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<rect x="410" y="166" width="982" height="96" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="428" y="197" font-size="20" fill="#177d80" font-weight="600"><tspan x="428" dy="0">搜索本机包装</tspan></text>
+<text x="428" y="227" font-size="17" fill="#203539" font-weight="400"><tspan x="428" dy="0">规范化药名后进行包含匹配；当前页面最多读取 100 条结果</tspan></text>
+<polyline points="710,262 710,288 388,288 388,634" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<rect x="410" y="310" width="260" height="88" rx="12" fill="#fff5e7" stroke="#a86b24"/>
+<text x="428" y="341" font-size="20" fill="#a86b24" font-weight="600"><tspan x="428" dy="0">0 条结果</tspan></text>
+<text x="428" y="371" font-size="17" fill="#203539" font-weight="400"><tspan x="428" dy="0">无匹配记录</tspan></text>
+<polyline points="388,354 410,354" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<rect x="410" y="450" width="260" height="88" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="428" y="481" font-size="20" fill="#177d80" font-weight="600"><tspan x="428" dy="0">1 条结果</tspan></text>
+<text x="428" y="511" font-size="17" fill="#203539" font-weight="400"><tspan x="428" dy="0">自动进入详情</tspan></text>
+<polyline points="388,494 410,494" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<rect x="410" y="590" width="260" height="88" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="428" y="621" font-size="20" fill="#177d80" font-weight="600"><tspan x="428" dy="0">多条结果</tspan></text>
+<text x="428" y="651" font-size="17" fill="#203539" font-weight="400"><tspan x="428" dy="0">展示包装供选择</tspan></text>
+<polyline points="388,634 410,634" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<rect x="770" y="310" width="622" height="88" rx="12" fill="#fff5e7" stroke="#a86b24"/>
+<text x="788" y="341" font-size="20" fill="#a86b24" font-weight="600"><tspan x="788" dy="0">暂无位置线索</tspan></text>
+<text x="788" y="371" font-size="17" fill="#203539" font-weight="400"><tspan x="788" dy="0">可进入“记一个位置”；不判断家里是否有药</tspan></text>
+<polyline points="670,354 770,354" fill="none" stroke="#a86b24" stroke-width="2" stroke-linejoin="round" marker-end="url(#orange)"/>
+<text x="682" y="341" font-size="15" fill="#a86b24" font-weight="400"><tspan x="682" dy="0">显示空态</tspan></text>
+<rect x="770" y="450" width="622" height="88" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="788" y="481" font-size="20" fill="#177d80" font-weight="600"><tspan x="788" dy="0">位置线索 · /clue/:id</tspan></text>
+<text x="788" y="511" font-size="17" fill="#203539" font-weight="400"><tspan x="788" dy="0">最近位置 + 记录时间 + 来源 + 可选照片</tspan></text>
+<polyline points="670,494 770,494" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<text x="695" y="481" font-size="15" fill="#177d80" font-weight="400"><tspan x="695" dy="0">直达</tspan></text>
+<rect x="770" y="590" width="622" height="88" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="788" y="621" font-size="20" fill="#177d80" font-weight="600"><tspan x="788" dy="0">选择药名 + 包装标签</tspan></text>
+<text x="788" y="651" font-size="17" fill="#203539" font-weight="400"><tspan x="788" dy="0">点击某一盒后，进入这盒药的位置线索</tspan></text>
+<polyline points="670,634 770,634" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<text x="682" y="621" font-size="15" fill="#177d80" font-weight="400"><tspan x="682" dy="0">手动选择</tspan></text>
+<polyline points="1370,590 1370,552 1100,552 1100,538" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<text x="48" y="736" font-size="23" fill="#177d80" font-weight="600"><tspan x="48" dy="0">线索页面的当前状态与可用动作</tspan></text>
+<rect x="48" y="768" width="432" height="204" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="66" y="799" font-size="20" fill="#177d80" font-weight="600"><tspan x="66" dy="0">recorded · 最近记录位置</tspan></text>
+<text x="66" y="829" font-size="17" fill="#203539" font-weight="400"><tspan x="66" dy="0">在这里找到了 → found-at-time</tspan><tspan x="66" dy="25.5">这里没找到 → not-found</tspan><tspan x="66" dy="25.5">两种反馈均关联当前观察</tspan><tspan x="66" dy="25.5">可查看这盒药的历史</tspan></text>
+<rect x="504" y="768" width="432" height="204" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="522" y="799" font-size="20" fill="#177d80" font-weight="600"><tspan x="522" dy="0">found-at-time · 本次找到</tspan></text>
+<text x="522" y="829" font-size="17" fill="#203539" font-weight="400"><tspan x="522" dy="0">回到首页</tspan><tspan x="522" dy="25.5">这里没找到 → not-found</tspan><tspan x="522" dy="25.5">位置变了 → 核对并新增位置</tspan><tspan x="522" dy="25.5">可查看这盒药的历史</tspan></text>
+<rect x="960" y="768" width="432" height="204" rx="12" fill="#fff5e7" stroke="#a86b24"/>
+<text x="978" y="799" font-size="20" fill="#a86b24" font-weight="600"><tspan x="978" dy="0">not-found · 本次未找到</tspan></text>
+<text x="978" y="829" font-size="17" fill="#203539" font-weight="400"><tspan x="978" dy="0">在别处找到了 → 补充新位置</tspan><tspan x="978" dy="25.5">或暂时结束查找 → 首页</tspan><tspan x="978" dy="25.5">旧位置与反馈仍保留在历史中</tspan><tspan x="978" dy="25.5">可查看这盒药的历史</tspan></text>
+<rect x="48" y="998" width="1344" height="76" rx="12" fill="#edf7f6" stroke="#bdcece"/>
+<text x="72" y="1028" font-size="18" fill="#177d80" font-weight="600"><tspan x="72" dy="0">状态规则：选择 seq 最大的位置观察，再选择仅属于该观察的最新反馈。</tspan></text>
+<text x="72" y="1055" font-size="17" fill="#637679" font-weight="400"><tspan x="72" dy="0">新增位置后回到 recorded，旧观察的反馈不会影响新位置；empty 是无观察时的领域状态。</tspan></text>
+<path d="M48 1094 H1392" stroke="#bdcece"/>
+<text x="48" y="1125" font-size="16" fill="#637679" font-weight="400"><tspan x="48" dy="0">找到只代表本次结果；未找到不代表用完；所有状态均不推断库存数量。</tspan></text>
+<text x="1184" y="1125" font-size="15" fill="#637679" font-weight="400"><tspan x="1184" dy="0">代码快照 · 2026-10-10</tspan></text>
+</g></svg>

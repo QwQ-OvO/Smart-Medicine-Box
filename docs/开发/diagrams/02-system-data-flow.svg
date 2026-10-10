@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1120" viewBox="0 0 1440 1120" role="img" aria-labelledby="title desc"><title id="title">系统协作与数据流</title><desc id="desc">文字解析跨网络；包装、位置观察、反馈和照片保存在浏览器内。。依据 2026-10-10 当前代码，详细对照见当前产品图解文档。</desc><defs><marker id="teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#177d80"/></marker><marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#346fa8"/></marker><marker id="orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#a86b24"/></marker></defs><g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+<rect x="0" y="0" width="1440" height="1120" rx="0" fill="#fafcfc" stroke="none"/>
+<text x="48" y="43" font-size="16" fill="#177d80" font-weight="600"><tspan x="48" dy="0">家庭药箱 / 当前产品设计    02</tspan></text>
+<text x="48" y="89" font-size="32" fill="#203539" font-weight="700"><tspan x="48" dy="0">系统协作与数据流</tspan></text>
+<text x="48" y="124" font-size="18" fill="#637679" font-weight="400"><tspan x="48" dy="0">文字解析跨网络；包装、位置观察、反馈和照片保存在浏览器内。</tspan></text>
+<rect x="48" y="164" width="708" height="748" rx="12" fill="#edf7f6" stroke="#bdcece"/>
+<text x="72" y="200" font-size="24" fill="#177d80" font-weight="600"><tspan x="72" dy="0">浏览器 · React + 本机数据</tspan></text>
+<rect x="788" y="164" width="604" height="748" rx="12" fill="#f2f6fa" stroke="#bdcece"/>
+<text x="812" y="200" font-size="24" fill="#346fa8" font-weight="600"><tspan x="812" dy="0">后端 · Fastify 文字解析</tspan></text>
+<rect x="76" y="232" width="648" height="120" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="94" y="263" font-size="20" fill="#177d80" font-weight="600"><tspan x="94" dy="0">页面与交互 · App.tsx</tspan></text>
+<text x="94" y="293" font-size="17" fill="#203539" font-weight="400"><tspan x="94" dy="0">Home / Search / Record / CluePage / History</tspan><tspan x="94" dy="25.5">Record 中组织输入、解析、核对与保存</tspan></text>
+<rect x="76" y="446" width="648" height="100" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="94" y="477" font-size="20" fill="#177d80" font-weight="600"><tspan x="94" dy="0">MedicineStore + 领域规则</tspan></text>
+<text x="94" y="507" font-size="17" fill="#203539" font-weight="400"><tspan x="94" dy="0">execute / search / clue / history / photo；deriveClue 推导状态</tspan></text>
+<polyline points="400,352 400,446" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<text x="414" y="399" font-size="15" fill="#177d80" font-weight="400"><tspan x="414" dy="0">确认后的命令 / 本地查询</tspan></text>
+<text x="72" y="385" font-size="16" fill="#346fa8" font-weight="400"><tspan x="72" dy="0">发送描述，返回候选草稿。</tspan></text>
+<text x="72" y="411" font-size="16" fill="#346fa8" font-weight="400"><tspan x="72" dy="0">照片与本地记录不随解析发送。</tspan></text>
+<rect x="76" y="606" width="648" height="258" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="94" y="637" font-size="20" fill="#177d80" font-weight="600"><tspan x="94" dy="0">Dexie → IndexedDB · medicine-location-v1</tspan></text>
+<text x="94" y="667" font-size="17" fill="#203539" font-weight="400"><tspan x="94" dy="0">packages：包装身份、规范化药名与标签、revision</tspan><tspan x="94" dy="25.5">observations：位置、来源、确认时间、可选 photoId</tspan><tspan x="94" dy="25.5">feedback：关联 observationId 的找到／未找到结果</tspan><tspan x="94" dy="25.5">photos：JPEG Blob、添加时间、拍摄时间（当前为空）</tspan><tspan x="94" dy="25.5">commands：命令指纹和回执，用于重复命令去重</tspan><tspan x="94" dy="25.5">同事务完成写入；失败回滚，保留旧位置与旧照片</tspan></text>
+<polyline points="400,546 400,606" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<text x="414" y="583" font-size="15" fill="#177d80" font-weight="400"><tspan x="414" dy="0">读写本机记录</tspan></text>
+<rect x="820" y="232" width="540" height="120" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="838" y="263" font-size="20" fill="#177d80" font-weight="600"><tspan x="838" dy="0">HTTP 接口</tspan></text>
+<text x="838" y="293" font-size="17" fill="#203539" font-weight="400"><tspan x="838" dy="0">GET /api/v1/health · GET /api/v1/capabilities</tspan><tspan x="838" dy="25.5">POST /api/v1/parse-previews</tspan></text>
+<polyline points="724,265 820,265" fill="none" stroke="#346fa8" stroke-width="2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<polyline points="820,327 724,327" fill="none" stroke="#346fa8" stroke-width="2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<rect x="820" y="414" width="540" height="110" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="838" y="445" font-size="20" fill="#177d80" font-weight="600"><tspan x="838" dy="0">parseText 解析服务</tspan></text>
+<text x="838" y="475" font-size="17" fill="#203539" font-weight="400"><tspan x="838" dy="0">请求校验、限流、超时控制</tspan><tspan x="838" dy="25.5">校验供应商结果结构与一致性</tspan></text>
+<polyline points="1090,352 1090,414" fill="none" stroke="#346fa8" stroke-width="2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<text x="1104" y="391" font-size="15" fill="#346fa8" font-weight="400"><tspan x="1104" dy="0">仅处理文字</tspan></text>
+<rect x="820" y="590" width="255" height="128" rx="12" fill="#eff5fc" stroke="#346fa8"/>
+<text x="838" y="621" font-size="20" fill="#346fa8" font-weight="600"><tspan x="838" dy="0">Mock 演示模式</tspan></text>
+<text x="838" y="651" font-size="17" fill="#203539" font-weight="400"><tspan x="838" dy="0">固定规则提取</tspan><tspan x="838" dy="25.5">明确标示演示解析</tspan></text>
+<rect x="1105" y="590" width="255" height="128" rx="12" fill="#eff5fc" stroke="#346fa8"/>
+<text x="1123" y="621" font-size="20" fill="#346fa8" font-weight="600"><tspan x="1123" dy="0">Live 适配模式</tspan></text>
+<text x="1123" y="651" font-size="17" fill="#203539" font-weight="400"><tspan x="1123" dy="0">配置 HTTPS 模型接口</tspan><tspan x="1123" dy="25.5">密钥仅在服务端</tspan></text>
+<polyline points="1090,524 1090,552 946,552 946,590" fill="none" stroke="#346fa8" stroke-width="2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<polyline points="1090,552 1232,552 1232,590" fill="none" stroke="#346fa8" stroke-width="2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<text x="820" y="764" font-size="18" fill="#637679" font-weight="400"><tspan x="820" dy="0">输出：ready / needs-confirmation / out-of-scope</tspan><tspan x="820" dy="27">候选药名与位置只是草稿，不能直接形成已存记录。</tspan><tspan x="820" dy="27">后端没有药品数据库，也没有照片上传接口。</tspan></text>
+<rect x="48" y="942" width="1344" height="88" rx="12" fill="#fff5e7" stroke="#a86b24"/>
+<text x="66" y="973" font-size="20" fill="#a86b24" font-weight="600"><tspan x="66" dy="0">事实来源：用户确认后的本机记录</tspan></text>
+<text x="66" y="1003" font-size="17" fill="#203539" font-weight="400"><tspan x="66" dy="0">模型不判断真实位置；本机数据按 origin 隔离，清除网站数据会删除记录和照片。</tspan></text>
+<path d="M48 1054 H1392" stroke="#bdcece"/>
+<text x="48" y="1085" font-size="16" fill="#637679" font-weight="400"><tspan x="48" dy="0">实线表示调用或数据流；两个 provider 为模式选择，不是同时执行。</tspan></text>
+<text x="1184" y="1085" font-size="15" fill="#637679" font-weight="400"><tspan x="1184" dy="0">代码快照 · 2026-10-10</tspan></text>
+</g></svg>

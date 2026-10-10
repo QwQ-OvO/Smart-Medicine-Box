@@ -1,0 +1,267 @@
+{
+  "version": "0.4",
+  "fileKey": "dfvVgUOd3g8gj5vfjOcoLO",
+  "pageId": "0:1",
+  "screens": {
+    "home": "4:3",
+    "packages": "4:28",
+    "clue": "4:47",
+    "photo": "4:85",
+    "found": "4:119",
+    "noresult": "4:140",
+    "record": "5:14",
+    "photoDraft": "5:38",
+    "manual": "5:74",
+    "review": "5:101",
+    "reviewNoPhoto": "5:141",
+    "choosePack": "5:169",
+    "miss": "5:193",
+    "update": "5:229",
+    "updated": "5:251",
+    "newClue": "5:274",
+    "history": "5:299",
+    "homeMiss": "5:321",
+    "empty": "6:56",
+    "parseFail": "6:77",
+    "saveFail": "6:98",
+    "cameraFail": "6:121",
+    "house": "6:142",
+    "loading": "6:162",
+    "saved": "7:68",
+    "savedText": "7:105",
+    "homeUpdated": "7:127",
+    "historyOld": "7:150",
+    "historyFound": "7:166",
+    "photoMiss": "7:185",
+    "newPack": "8:78",
+    "newPackSaved": "8:105",
+    "houseFound": "8:124",
+    "updatePhoto": "8:142",
+    "updatedPhoto": "8:175",
+    "photoSaved": "8:210",
+    "historyMiss": "9:149",
+    "historyPhoto": "9:168",
+    "missing": "9:189",
+    "demo": "9:214",
+    "help": "17:104"
+  },
+  "replacements": {
+    "4:20": "17:138",
+    "4:38": "17:142",
+    "4:41": "17:146",
+    "15:259": "17:150",
+    "4:110": "17:154",
+    "4:132": "17:157",
+    "4:153": "17:160",
+    "5:24": "17:164",
+    "5:64": "17:168",
+    "5:161": "17:171",
+    "5:182": "17:175",
+    "5:185": "17:179",
+    "5:243": "17:183",
+    "5:264": "17:186",
+    "5:267": "17:189",
+    "5:290": "17:193",
+    "5:315": "17:196",
+    "5:339": "17:200",
+    "6:69": "17:204",
+    "6:90": "17:207",
+    "6:111": "17:210",
+    "6:134": "17:213",
+    "6:152": "17:216",
+    "6:172": "17:219",
+    "7:81": "17:222",
+    "7:118": "17:225",
+    "7:142": "17:228",
+    "7:145": "17:232",
+    "7:160": "17:236",
+    "7:179": "17:240",
+    "8:118": "17:244",
+    "8:137": "17:247",
+    "8:188": "17:250",
+    "8:235": "17:253",
+    "9:162": "17:256",
+    "9:184": "17:260",
+    "9:199": "17:264",
+    "9:230": "17:267",
+    "17:117": "17:270",
+    "17:120": "17:273",
+    "17:123": "17:276",
+    "4:61": "18:209",
+    "4:95": "18:225",
+    "5:48": "18:240",
+    "5:118": "18:255",
+    "5:206": "18:270",
+    "7:84": "18:286",
+    "7:195": "18:302",
+    "8:220": "18:317"
+  },
+  "foundation": {
+    "createdNodeIds": [
+      "0:1",
+      "3:40",
+      "3:41",
+      "3:42",
+      "3:43",
+      "3:44",
+      "3:45",
+      "3:46",
+      "3:47",
+      "3:48",
+      "3:49",
+      "3:50",
+      "3:51",
+      "3:52",
+      "3:53",
+      "3:54",
+      "3:55",
+      "3:56",
+      "3:57",
+      "3:58",
+      "3:59"
+    ],
+    "collectionId": "VariableCollectionId:3:2",
+    "variables": {
+      "canvas": "VariableID:3:4",
+      "surface": "VariableID:3:6",
+      "group": "VariableID:3:8",
+      "ink": "VariableID:3:10",
+      "muted": "VariableID:3:12",
+      "rule": "VariableID:3:14",
+      "accent": "VariableID:3:16",
+      "tint": "VariableID:3:18",
+      "amber": "VariableID:3:20",
+      "amber-soft": "VariableID:3:22",
+      "green": "VariableID:3:24",
+      "green-soft": "VariableID:3:26",
+      "space/xs": "VariableID:3:27",
+      "space/sm": "VariableID:3:28",
+      "space/md": "VariableID:3:29",
+      "space/lg": "VariableID:3:30",
+      "space/xl": "VariableID:3:31",
+      "radius/group": "VariableID:3:32",
+      "radius/action": "VariableID:3:33"
+    },
+    "styles": {
+      "title": "S:9c767853522de4955fbccfb171c29be3e377c7f5,",
+      "heading": "S:ad332e32174e07dd7af0a6876da2d8cd9583e297,",
+      "body": "S:6f43c8504d1bef1299438a088985618476e348c9,",
+      "strong": "S:15bc9dcface51aba2df7cfd540b5af711a3cc1ea,",
+      "caption": "S:a0eef2f764e0f4c76681b01142f6e35588a263af,",
+      "label": "S:fe088d568d26466626b71b98b821f89ee325da1a,"
+    },
+    "components": {
+      "Primary": {
+        "id": "3:43",
+        "key": "文字#3:0"
+      },
+      "Secondary": {
+        "id": "3:45",
+        "key": "文字#3:1"
+      },
+      "Text": {
+        "id": "3:47",
+        "key": "文字#3:2"
+      },
+      "Disabled": {
+        "id": "3:49",
+        "key": "文字#3:3"
+      },
+      "Field": {
+        "id": "3:51",
+        "label": "标签#3:4",
+        "value": "内容#3:5"
+      }
+    },
+    "libraryId": "3:40",
+    "coverId": "3:54",
+    "pageId": "0:1"
+  },
+  "qa": {
+    "tests": [
+      {
+        "name": "查找已有包装",
+        "pass": true
+      },
+      {
+        "name": "找到后再次查询",
+        "pass": true
+      },
+      {
+        "name": "未找到后结束与再次查询",
+        "pass": true
+      },
+      {
+        "name": "更新文字位置",
+        "pass": true
+      },
+      {
+        "name": "新位置附新照片",
+        "pass": true
+      },
+      {
+        "name": "手工录入与保存后查询",
+        "pass": true
+      },
+      {
+        "name": "AI只生成核对稿",
+        "pass": true
+      },
+      {
+        "name": "解析失败转手工",
+        "pass": true
+      },
+      {
+        "name": "图片保存失败重试",
+        "pass": true
+      },
+      {
+        "name": "相机失败跳过照片",
+        "pass": true
+      },
+      {
+        "name": "照片返回原上下文",
+        "pass": true
+      },
+      {
+        "name": "撤销误点找到",
+        "pass": true
+      },
+      {
+        "name": "新增同名包装",
+        "pass": true
+      },
+      {
+        "name": "帮助入口返回",
+        "pass": true
+      }
+    ],
+    "passed": 14,
+    "total": 14,
+    "screenCount": 41,
+    "clipping": [],
+    "smallTargets": [],
+    "fixedText": [],
+    "fontFamilies": {
+      "Noto Sans SC": 533,
+      "SF Pro": 154
+    },
+    "nodeCounts": {
+      "FRAME": 318,
+      "TEXT": 491,
+      "COMPONENT": 7,
+      "VECTOR": 130,
+      "SECTION": 7,
+      "INSTANCE": 134
+    }
+  },
+  "limitations": [
+    "Figma reaction-logic simulation; not a native prototype click test or recruited-user study",
+    "Fixed 390x844 screens; real input, camera, storage, model, assistive technology and Dynamic Type require app implementation"
+  ],
+  "sources": [
+    "https://developer.apple.com/design/human-interface-guidelines/materials",
+    "https://developer.apple.com/design/tips/",
+    "https://www.nngroup.com/articles/ten-usability-heuristics/"
+  ]
+}

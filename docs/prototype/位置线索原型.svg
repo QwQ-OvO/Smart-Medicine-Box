@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="1832" viewBox="0 0 1380 1832" role="img" aria-labelledby="title desc"><title id="title">家庭药箱位置线索 明亮版设计稿</title><desc id="desc">六个静态界面，演示数据。查找、录入、核对、历史线索、未找到与位置更新。</desc><style>/* Hallmark · macrostructure: task storyboard · genre: modern-minimal · tone: bright restrained · anchor: blue */
+/* pre-emit critique: P4 H5 E4 S4 R5 V4 */
+:root {
+  --color-canvas: oklch(0.97295 0.00287 264.542);
+  --color-surface: oklch(1.00000 0.00000 89.876);
+  --color-group: oklch(0.96257 0.00665 286.274);
+  --color-ink: oklch(0.22728 0.00382 286.092);
+  --color-muted: oklch(0.49929 0.01417 285.876);
+  --color-rule: oklch(0.90994 0.00841 271.322);
+  --color-accent: oklch(0.52779 0.19606 258.078);
+  --color-accent-ink: oklch(1.00000 0.00000 89.876);
+  --color-tint: oklch(0.95894 0.01946 260.170);
+  --color-amber: oklch(0.49802 0.09602 78.576);
+  --color-amber-soft: oklch(0.97193 0.03199 87.288);
+  --color-green: oklch(0.49853 0.10489 155.383);
+  --color-green-soft: oklch(0.96671 0.01402 155.590);
+  --font-body: -apple-system, BlinkMacSystemFont, &quot;SF Pro Text&quot;, &quot;PingFang SC&quot;, &quot;DengXian&quot;, &quot;Microsoft YaHei&quot;, sans-serif;
+  --font-display: var(--font-body);
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --text-title: 32px;
+  --text-body: 17px;
+  --text-caption: 14px;
+  --radius-group: 20px;
+  --radius-action: 26px;
+}
+</style>
+<rect width="1380" height="1832" fill="var(--color-canvas)"/>
+<text x="56" y="40" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:18px;fill:var(--color-muted)">家庭药箱</text>
+<text x="56" y="77" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:42px;fill:var(--color-ink)">让位置线索，一眼清楚。</text>
+<text x="56" y="138" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:18px;fill:var(--color-muted)">明亮的内容分组、克制的色彩、清晰的操作层级。</text>
+<text x="56" y="179" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:14px;fill:var(--color-muted)">v0.2  ·  静态设计稿  ·  全部为演示数据  ·  按钮不可操作</text>
+<text x="56" y="240" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:14px;fill:var(--color-muted)">S1</text>
+<text x="56" y="264" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:19px;fill:var(--color-ink)">查找入口</text>
+<rect x="56" y="296" width="390" height="620" rx="24" fill="var(--color-group)"/>
+<text x="80" y="320" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:16px;fill:var(--color-muted)">我的药箱</text>
+<path d="M409 319 L409 337" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M400 328 L418 328" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="80" y="372" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:32px;fill:var(--color-ink)">找药</text>
+<text x="80" y="418" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">知道药名，就从已有线索开始。</text>
+<rect x="80" y="468" width="342" height="56" rx="16" fill="var(--color-surface)"/>
+<ellipse cx="104.5" cy="492.5" rx="7.5" ry="7.5" fill="none" stroke="var(--color-muted)" stroke-width="2"/>
+<path d="M110 499 L117 506" stroke="var(--color-muted)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="133" y="486" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:18px;fill:var(--color-ink)">布洛芬</text>
+<rect x="80" y="544" width="342" height="52" rx="26" fill="var(--color-accent)"/>
+<text x="217.0" y="560" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:17px;fill:var(--color-accent-ink)">查找位置</text>
+<text x="80" y="636" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:20px;fill:var(--color-ink)">整理时，顺手记下来</text>
+<text x="80" y="670" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">给下一次查找，留一个起点。</text>
+<rect x="80" y="712" width="342" height="68" rx="20" fill="var(--color-surface)"/>
+<ellipse cx="114.0" cy="746.0" rx="18.0" ry="18.0" fill="var(--color-tint)"/>
+<path d="M114 737 L114 755" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M105 746 L123 746" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="148" y="737" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:18px;fill:var(--color-accent)">记一个位置</text>
+<text x="389" y="734" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:24px;fill:var(--color-muted)">›</text>
+<text x="163.0" y="880" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">位置记录不代表实时库存</text>
+<text x="496" y="240" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:14px;fill:var(--color-muted)">S2</text>
+<text x="496" y="264" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:19px;fill:var(--color-ink)">记录描述</text>
+<rect x="496" y="296" width="390" height="620" rx="24" fill="var(--color-group)"/>
+<path d="M533 320 L524 329" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M524 329 L533 338" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="545" y="320" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-accent)">返回</text>
+<text x="520" y="372" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:32px;fill:var(--color-ink)">记下放在哪里</text>
+<text x="520" y="418" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">一句话描述，稍后核对。</text>
+<rect x="520" y="468" width="342" height="208" rx="20" fill="var(--color-surface)"/>
+<text x="540" y="493" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:22px;fill:var(--color-ink)">这盒布洛芬放在</text>
+<text x="540" y="530" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:22px;fill:var(--color-ink)">黑色背包前袋。</text>
+<text x="540" y="633" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:14px;fill:var(--color-muted)">位置由你提供，AI 帮你整理。</text>
+<rect x="520" y="744" width="342" height="52" rx="26" fill="var(--color-accent)"/>
+<text x="648.5" y="760" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:17px;fill:var(--color-accent-ink)">整理这句话</text>
+<text x="643.0" y="824" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-accent)">改为手工填写</text>
+<text x="635.0" y="880" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">核对后才会保存</text>
+<text x="936" y="240" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:14px;fill:var(--color-muted)">S3</text>
+<text x="936" y="264" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:19px;fill:var(--color-ink)">核对信息</text>
+<rect x="936" y="296" width="390" height="620" rx="24" fill="var(--color-group)"/>
+<path d="M973 320 L964 329" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M964 329 L973 338" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="985" y="320" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-accent)">返回</text>
+<text x="960" y="372" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:32px;fill:var(--color-ink)">核对一下</text>
+<text x="960" y="418" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">确认名称和位置，就可以保存。</text>
+<rect x="960" y="468" width="342" height="264" rx="20" fill="var(--color-surface)"/>
+<text x="980" y="488" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:14px;fill:var(--color-muted)">药品名称</text>
+<text x="980" y="517" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:19px;fill:var(--color-ink)">布洛芬</text>
+<text x="980" y="576" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:14px;fill:var(--color-muted)">包装标签 · 区分同名药</text>
+<text x="980" y="605" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:19px;fill:var(--color-ink)">随身盒</text>
+<text x="980" y="664" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:14px;fill:var(--color-muted)">位置</text>
+<text x="980" y="693" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:19px;fill:var(--color-ink)">黑色背包 / 前袋</text>
+<path d="M980 556 L1282 556" stroke="var(--color-rule)" stroke-width="1" fill="none" stroke-linecap="round"/>
+<path d="M980 644 L1282 644" stroke="var(--color-rule)" stroke-width="1" fill="none" stroke-linecap="round"/>
+<rect x="960" y="768" width="342" height="52" rx="26" fill="var(--color-accent)"/>
+<text x="1088.5" y="784" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:17px;fill:var(--color-accent-ink)">确认并保存</text>
+<text x="1049.75" y="880" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">AI 整理的内容可以修改</text>
+<text x="56" y="952" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">留下线索  →  核对保存  →  下次查找</text>
+<path d="M56 992 L1326 992" stroke="var(--color-rule)" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="56" y="1044" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:14px;fill:var(--color-muted)">S4</text>
+<text x="56" y="1068" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:19px;fill:var(--color-ink)">最近位置</text>
+<rect x="56" y="1100" width="390" height="620" rx="24" fill="var(--color-group)"/>
+<path d="M93 1124 L84 1133" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M84 1133 L93 1142" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="105" y="1124" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-accent)">返回</text>
+<text x="80" y="1176" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:32px;fill:var(--color-ink)">布洛芬</text>
+<text x="80" y="1222" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">随身盒</text>
+<rect x="80" y="1264" width="342" height="282" rx="20" fill="var(--color-surface)"/>
+<rect x="102" y="1294" width="24" height="22" rx="5" fill="var(--color-tint)" stroke="var(--color-accent)"/>
+<path d="M108 1294 L108 1288" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M108 1288 L120 1288" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M120 1288 L120 1294" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M108 1307 L120 1307" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="140" y="1292" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:14px;fill:var(--color-muted)">最近记录的位置</text>
+<text x="100" y="1338" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:30px;fill:var(--color-ink)">黑色背包</text>
+<text x="100" y="1381" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:23px;fill:var(--color-ink)">前袋</text>
+<path d="M100 1426 L402 1426" stroke="var(--color-rule)" stroke-width="1" fill="none" stroke-linecap="round"/>
+<text x="100" y="1447" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:14px;fill:var(--color-muted)">10 月 8 日 18:30 · 你确认的位置</text>
+<rect x="100" y="1485" width="220" height="32" rx="16" fill="var(--color-tint)"/>
+<text x="113" y="1493" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:14px;fill:var(--color-accent)">当前是否仍在，尚未确认</text>
+<rect x="80" y="1574" width="342" height="52" rx="26" fill="var(--color-accent)"/>
+<text x="200.0" y="1590" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:17px;fill:var(--color-accent-ink)">在这里找到了</text>
+<text x="211.0" y="1650" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-accent)">这里没找到</text>
+<text x="496" y="1044" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:14px;fill:var(--color-muted)">S5</text>
+<text x="496" y="1068" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:19px;fill:var(--color-ink)">未找到的处理</text>
+<rect x="496" y="1100" width="390" height="620" rx="24" fill="var(--color-group)"/>
+<path d="M533 1124 L524 1133" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M524 1133 L533 1142" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="545" y="1124" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-accent)">返回</text>
+<text x="520" y="1176" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:32px;fill:var(--color-ink)">这里没找到</text>
+<text x="520" y="1222" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">布洛芬 · 随身盒</text>
+<rect x="520" y="1264" width="342" height="144" rx="20" fill="var(--color-surface)"/>
+<text x="540" y="1285" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:22px;fill:var(--color-ink)">黑色背包 / 前袋</text>
+<text x="540" y="1325" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:14px;fill:var(--color-muted)">10 月 10 日 09:20</text>
+<rect x="540" y="1357" width="100" height="30" rx="15" fill="var(--color-amber-soft)"/>
+<text x="553" y="1364" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:14px;fill:var(--color-amber)">本次未找到</text>
+<text x="520" y="1440" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:21px;fill:var(--color-ink)">这不代表已经用完。</text>
+<text x="520" y="1476" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">暂无更多有效线索，可以先结束查找。</text>
+<rect x="520" y="1544" width="342" height="52" rx="26" fill="var(--color-accent)"/>
+<text x="606.0" y="1560" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:17px;fill:var(--color-accent-ink)">在别处找到，更新位置</text>
+<text x="643.0" y="1616" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-accent)">暂时结束查找</text>
+<text x="643.0" y="1671" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">查看历史记录</text>
+<text x="936" y="1044" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:14px;fill:var(--color-muted)">S6</text>
+<text x="936" y="1068" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:19px;fill:var(--color-ink)">新位置与历史</text>
+<rect x="936" y="1100" width="390" height="620" rx="24" fill="var(--color-group)"/>
+<path d="M973 1124 L964 1133" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M964 1133 L973 1142" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="985" y="1124" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-accent)">返回</text>
+<ellipse cx="978.0" cy="1195.0" rx="18.0" ry="18.0" fill="var(--color-green-soft)"/>
+<path d="M969 1195 L975 1201" stroke="var(--color-green)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M975 1201 L988 1187" stroke="var(--color-green)" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="1008" y="1180" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:29px;fill:var(--color-ink)">位置已更新</text>
+<text x="960" y="1227" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">布洛芬 · 随身盒</text>
+<rect x="960" y="1264" width="342" height="158" rx="20" fill="var(--color-surface)"/>
+<text x="980" y="1285" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:30px;fill:var(--color-ink)">行李箱</text>
+<text x="980" y="1329" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:23px;fill:var(--color-ink)">内侧袋</text>
+<text x="980" y="1383" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:14px;fill:var(--color-muted)">10 月 10 日 09:24 · 你确认的位置</text>
+<text x="960" y="1451" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:16px;fill:var(--color-muted)">之前的线索</text>
+<path d="M968 1495 L968 1550" stroke="var(--color-rule)" stroke-width="1" fill="none" stroke-linecap="round"/>
+<ellipse cx="968.0" cy="1498.0" rx="4.0" ry="4.0" fill="var(--color-muted)"/>
+<text x="988" y="1486" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:14px;fill:var(--color-muted)">10 月 8 日 · 记在黑色背包前袋</text>
+<ellipse cx="968.0" cy="1548.0" rx="4.0" ry="4.0" fill="var(--color-muted)"/>
+<text x="988" y="1536" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:14px;fill:var(--color-muted)">10 月 10 日 · 在那里没有找到</text>
+<rect x="960" y="1593" width="342" height="52" rx="26" fill="var(--color-accent)"/>
+<text x="1097.0" y="1609" dominant-baseline="text-before-edge" style="font-family:var(--font-display);font-weight:600;font-size:17px;fill:var(--color-accent-ink)">返回查找</text>
+<text x="1043.0" y="1684" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">位置之后仍可能发生变化</text>
+<text x="56" y="1760" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:16px;fill:var(--color-muted)">按线索寻找  →  反馈结果  →  保留历史，更新位置</text>
+<text x="936" y="1760" dominant-baseline="text-before-edge" style="font-family:var(--font-body);font-weight:400;font-size:14px;fill:var(--color-muted)">内容优先 · 系统字体 · 语义颜色</text>
+</svg>

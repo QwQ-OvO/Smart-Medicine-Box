@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1440" viewBox="0 0 1440 1440" role="img" aria-labelledby="title desc"><title id="title">记录位置与核对保存泳道</title><desc id="desc">从用户输入到本机提交；AI 解析为可选分支，已有包装从手工更新位置开始。。依据 2026-10-10 当前代码，详细对照见当前产品图解文档。</desc><defs><marker id="teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#177d80"/></marker><marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#346fa8"/></marker><marker id="orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#a86b24"/></marker></defs><g font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+<rect x="0" y="0" width="1440" height="1440" rx="0" fill="#fafcfc" stroke="none"/>
+<text x="48" y="43" font-size="16" fill="#177d80" font-weight="600"><tspan x="48" dy="0">家庭药箱 / 当前产品设计    04</tspan></text>
+<text x="48" y="89" font-size="32" fill="#203539" font-weight="700"><tspan x="48" dy="0">记录位置与核对保存泳道</tspan></text>
+<text x="48" y="124" font-size="18" fill="#637679" font-weight="400"><tspan x="48" dy="0">从用户输入到本机提交；AI 解析为可选分支，已有包装从手工更新位置开始。</tspan></text>
+<rect x="48" y="162" width="324" height="1130" rx="0" fill="#f5f8f8" stroke="#d8e2e2"/>
+<text x="68" y="198" font-size="23" fill="#177d80" font-weight="600"><tspan x="68" dy="0">用户</tspan></text>
+<text x="68" y="228" font-size="16" fill="#637679" font-weight="400"><tspan x="68" dy="0">输入与事实确认</tspan></text>
+<rect x="384" y="162" width="324" height="1130" rx="0" fill="#f1f6f6" stroke="#d8e2e2"/>
+<text x="404" y="198" font-size="23" fill="#177d80" font-weight="600"><tspan x="404" dy="0">前端页面</tspan></text>
+<text x="404" y="228" font-size="16" fill="#637679" font-weight="400"><tspan x="404" dy="0">Record / PhotoInput</tspan></text>
+<rect x="720" y="162" width="324" height="1130" rx="0" fill="#f5f8f8" stroke="#d8e2e2"/>
+<text x="740" y="198" font-size="23" fill="#177d80" font-weight="600"><tspan x="740" dy="0">解析后端（可选）</tspan></text>
+<text x="740" y="228" font-size="16" fill="#637679" font-weight="400"><tspan x="740" dy="0">Fastify / parseText</tspan></text>
+<rect x="1056" y="162" width="324" height="1130" rx="0" fill="#f1f6f6" stroke="#d8e2e2"/>
+<text x="1076" y="198" font-size="23" fill="#177d80" font-weight="600"><tspan x="1076" dy="0">本机仓储</tspan></text>
+<text x="1076" y="228" font-size="16" fill="#637679" font-weight="400"><tspan x="1076" dy="0">MedicineStore / IndexedDB</tspan></text>
+<rect x="64" y="270" width="292" height="108" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="82" y="301" font-size="20" fill="#177d80" font-weight="600"><tspan x="82" dy="0">① 记一个位置</tspan></text>
+<text x="82" y="331" font-size="17" fill="#203539" font-weight="400"><tspan x="82" dy="0">一句话描述或手工填写</tspan><tspan x="82" dy="25.5">已有包装：补充新位置</tspan></text>
+<rect x="400" y="270" width="292" height="108" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="418" y="301" font-size="20" fill="#177d80" font-weight="600"><tspan x="418" dy="0">② 保留可编辑草稿</tspan></text>
+<text x="418" y="331" font-size="17" fill="#203539" font-weight="400"><tspan x="418" dy="0">药名／标签／位置／照片</tspan><tspan x="418" dy="25.5">照片可选，仅在本机处理</tspan></text>
+<polyline points="356,324 400,324" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<rect x="736" y="438" width="292" height="108" rx="12" fill="#eff5fc" stroke="#346fa8"/>
+<text x="754" y="469" font-size="20" fill="#346fa8" font-weight="600"><tspan x="754" dy="0">③ 解析文字</tspan></text>
+<text x="754" y="499" font-size="17" fill="#203539" font-weight="400"><tspan x="754" dy="0">ready：候选字段齐全</tspan><tspan x="754" dy="25.5">needs-confirmation：需补全</tspan></text>
+<polyline points="546,378 546,418 882,418 882,438" fill="none" stroke="#346fa8" stroke-width="2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<text x="650" y="406" font-size="15" fill="#346fa8" font-weight="400"><tspan x="650" dy="0">仅“一句话整理”调用</tspan></text>
+<rect x="400" y="610" width="292" height="108" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="418" y="641" font-size="20" fill="#177d80" font-weight="600"><tspan x="418" dy="0">④ 展示待核对记录</tspan></text>
+<text x="418" y="671" font-size="17" fill="#203539" font-weight="400"><tspan x="418" dy="0">可编辑；已有包装身份固定</tspan><tspan x="418" dy="25.5">ready 仍须用户确认</tspan></text>
+<polyline points="882,546 882,580 546,580 546,610" fill="none" stroke="#346fa8" stroke-width="2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<text x="660" y="568" font-size="15" fill="#346fa8" font-weight="400"><tspan x="660" dy="0">返回候选草稿</tspan></text>
+<polyline points="410,378 410,610" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<text x="418" y="565" font-size="15" fill="#177d80" font-weight="400"><tspan x="418" dy="0">手工填写</tspan></text>
+<rect x="64" y="610" width="292" height="108" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="82" y="641" font-size="20" fill="#177d80" font-weight="600"><tspan x="82" dy="0">⑤ 核对并确认保存</tspan></text>
+<text x="82" y="671" font-size="17" fill="#203539" font-weight="400"><tspan x="82" dy="0">缺药名或位置：补全</tspan><tspan x="82" dy="25.5">同名多盒：用不同标签</tspan></text>
+<polyline points="400,653 356,653" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<polyline points="356,695 400,695" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<rect x="736" y="610" width="292" height="162" rx="12" fill="#fff5e7" stroke="#a86b24"/>
+<text x="754" y="641" font-size="20" fill="#a86b24" font-weight="600"><tspan x="754" dy="0">解析失败或超出范围</tspan></text>
+<text x="754" y="671" font-size="17" fill="#203539" font-weight="400"><tspan x="754" dy="0">显示错误并保留原文</tspan><tspan x="754" dy="25.5">可重试或改为手工填写</tspan><tspan x="754" dy="25.5">不自动保存解析结果</tspan></text>
+<polyline points="1020,546 1020,610" fill="none" stroke="#a86b24" stroke-width="2" stroke-linejoin="round" marker-end="url(#orange)"/>
+<rect x="400" y="832" width="292" height="108" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="418" y="863" font-size="20" fill="#177d80" font-weight="600"><tspan x="418" dy="0">⑥ 提交保存命令</tspan></text>
+<text x="418" y="893" font-size="17" fill="#203539" font-weight="400"><tspan x="418" dy="0">create-record 或</tspan><tspan x="418" dy="25.5">record-location</tspan></text>
+<polyline points="546,718 546,832" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<rect x="1072" y="832" width="292" height="156" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="1090" y="863" font-size="20" fill="#177d80" font-weight="600"><tspan x="1090" dy="0">⑦ 校验与原子提交</tspan></text>
+<text x="1090" y="893" font-size="17" fill="#203539" font-weight="400"><tspan x="1090" dy="0">字段／同名包装／版本检查</tspan><tspan x="1090" dy="25.5">命令去重；同事务写入</tspan><tspan x="1090" dy="25.5">包装、观察、照片及回执</tspan></text>
+<polyline points="692,876 1072,876" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<text x="756" y="863" font-size="15" fill="#177d80" font-weight="400"><tspan x="756" dy="0">确认后的内容（含可选照片）</tspan></text>
+<rect x="400" y="1060" width="292" height="108" rx="12" fill="#fff" stroke="#177d80"/>
+<text x="418" y="1091" font-size="20" fill="#177d80" font-weight="600"><tspan x="418" dy="0">⑧ 保存成功</tspan></text>
+<text x="418" y="1121" font-size="17" fill="#203539" font-weight="400"><tspan x="418" dy="0">进入 /clue/:id</tspan><tspan x="418" dy="25.5">展示新位置线索</tspan></text>
+<polyline points="1218,988 1218,1022 546,1022 546,1060" fill="none" stroke="#177d80" stroke-width="2" stroke-linejoin="round" marker-end="url(#teal)"/>
+<text x="792" y="1011" font-size="15" fill="#177d80" font-weight="400"><tspan x="792" dy="0">返回保存回执</tspan></text>
+<rect x="736" y="1136" width="628" height="108" rx="12" fill="#fff5e7" stroke="#a86b24"/>
+<text x="754" y="1167" font-size="20" fill="#a86b24" font-weight="600"><tspan x="754" dy="0">保存失败：保留当前表单并提示错误</tspan></text>
+<text x="754" y="1197" font-size="17" fill="#203539" font-weight="400"><tspan x="754" dy="0">可重试；空间不足可移除照片后保存；</tspan><tspan x="754" dy="25.5">版本冲突需返回查看最新线索。</tspan></text>
+<polyline points="1336,988 1336,1136" fill="none" stroke="#a86b24" stroke-width="2" stroke-linejoin="round" marker-end="url(#orange)"/>
+<rect x="48" y="1320" width="1344" height="44" rx="12" fill="#fff5e7" stroke="#bdcece"/>
+<text x="68" y="1349" font-size="18" fill="#a86b24" font-weight="400"><tspan x="68" dy="0">照片先在浏览器解码、缩放并转成 JPEG；不进入文字解析请求。新位置不会自动沿用旧照片。</tspan></text>
+<path d="M48 1374 H1392" stroke="#bdcece"/>
+<text x="48" y="1405" font-size="16" fill="#637679" font-weight="400"><tspan x="48" dy="0">时间自上而下；蓝色为可选解析，琥珀色为异常分支，绿色为记录主流程。</tspan></text>
+<text x="1184" y="1405" font-size="15" fill="#637679" font-weight="400"><tspan x="1184" dy="0">代码快照 · 2026-10-10</tspan></text>
+</g></svg>
