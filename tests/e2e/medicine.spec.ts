@@ -40,7 +40,7 @@ test("failed save keeps draft and retry writes one record", async ({
 });
 test("photo survives refresh and historical photo is not inherited", async ({
   page,
-}) => {
+}, testInfo) => {
   await page.goto("/record");
   await page.getByRole("button", { name: "直接手工填写" }).click();
   await page.getByLabel("药名", { exact: true }).fill("布洛芬");
@@ -71,14 +71,20 @@ test("photo survives refresh and historical photo is not inherited", async ({
     page.getByRole("button", { name: "查看位置照片" }),
   ).toBeVisible();
   await page.getByRole("button", { name: "继续核对" }).click();
-  await page.screenshot({ path: "artifacts/review-photo.png", fullPage: true });
+  await page.screenshot({
+    path: testInfo.outputPath("review-photo.png"),
+    fullPage: true,
+  });
   await page.getByRole("button", { name: "确认并保存" }).click();
   await expect(page).toHaveURL(/\/clue\//);
   await page.reload();
   await expect(
     page.getByRole("button", { name: "查看位置照片" }),
   ).toBeVisible();
-  await page.screenshot({ path: "artifacts/clue-photo.png", fullPage: true });
+  await page.screenshot({
+    path: testInfo.outputPath("clue-photo.png"),
+    fullPage: true,
+  });
   await page.getByRole("button", { name: "这里没找到", exact: true }).click();
   await page.getByRole("button", { name: "在别处找到了，更新位置" }).click();
   await page.getByLabel("找到的位置").fill("柜子");
@@ -123,7 +129,7 @@ test("switching to manual ignores a late parsing response", async ({
 });
 test("mobile layouts remain within viewport and produce review screenshots", async ({
   page,
-}) => {
+}, testInfo) => {
   for (const width of [320, 390, 768]) {
     await page.setViewportSize({ width, height: 844 });
     await page.goto("/");
@@ -134,7 +140,7 @@ test("mobile layouts remain within viewport and produce review screenshots", asy
       ),
     ).toBe(true);
     await page.screenshot({
-      path: `artifacts/home-${width}.png`,
+      path: testInfo.outputPath(`home-${width}.png`),
       fullPage: true,
     });
   }

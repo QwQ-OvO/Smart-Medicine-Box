@@ -142,7 +142,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-端到端测试自动启动开发服务，使用隔离浏览器数据。报告位于 `playwright-report/`，截图位于 `artifacts/`。构建服务启动后，可另执行 `node tests/production-smoke.mjs` 验证交付版本。
+端到端测试自动启动开发服务，使用隔离浏览器数据。报告位于 `playwright-report/`，截图与失败跟踪位于 `test-results/`；两者均为可重新生成的本地产物，不提交到 Git。构建服务启动后，可另执行 `node tests/production-smoke.mjs` 验证交付版本。
 
 自动化验证覆盖了记录持久化、同名包装、照片历史、失败重试、并发冲突及解析回退。**真人可用性、真实模型质量和手机相机尚未实测。**
 
